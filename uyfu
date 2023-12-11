@@ -1,0 +1,22 @@
+class Person:
+    def __init__(self, fname, lname, nname, age):
+        self.firstname = fname
+        self.lastname = lname
+        self.nikname = nname
+        self.age = age
+    def printname():
+        print(self.firstname, self.lastname, self.nikname, self.age)
+#Use the Person class to create an object, and then execute the printname method:
+
+x = Person("May", "Nih", "l", "666")
+x.printname()
+class Student:
+    def __init__(self, gender):
+    
+    def printname(self):
+        print*(self.gender, )
+        
+#Use the Person class to create an object, and then execute the printname method:
+
+x = Person("man", "M", "g")
+        
